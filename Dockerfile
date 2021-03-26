@@ -1,3 +1,3 @@
-FROM dealtalfa/japp:v1
+FROM dealtalfa/japp
 ADD target/*.jar hello.jar
 ENTRYPOINT ["java","-jar","hello.jar"]
